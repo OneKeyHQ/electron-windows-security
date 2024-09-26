@@ -1,4 +1,4 @@
-declare module "windows.security.credentials.ui" {
+declare module "electron-windows-security" {
   export enum AuthenticationProtocol {
     basic,
     digest,
