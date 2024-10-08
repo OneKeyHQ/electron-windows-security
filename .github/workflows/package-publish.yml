@@ -13,8 +13,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install Package
         run: yarn
-      - name: Build
-        run: yarn prepare
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
