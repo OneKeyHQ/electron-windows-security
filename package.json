@@ -1,6 +1,6 @@
 {
   "name": "electron-windows-security",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use the Windows.Security.Credentials.UI UWP API directly from Node.js",
   "main": "lib/main.js",
   "scripts": {
