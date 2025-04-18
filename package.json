@@ -27,7 +27,7 @@
     "Microsoft"
   ],
   "dependencies": {
-    "nan": "2.20.0"
+    "nan": "2.22.2"
   },
   "repository": {
     "type": "git",
