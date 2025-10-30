@@ -72,8 +72,8 @@
     ],
     "msvs_settings": {
       "VCCLCompilerTool": {
-        # specify C++ 17 on Visual Studio 2022
-        "AdditionalOptions": ["-std:c++17", "/ZW"],
+        # C++/CX only supports C++20, but we need to define __cpp_lib_ranges to satisfy v8config.h
+        "AdditionalOptions": ["/std:c++20"],
         "DisableSpecificWarnings": [4609]
       }
     }
